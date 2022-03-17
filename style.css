@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    /* cursor: default; */
+  }
+img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    padding: 0rem 4.5rem;
+}
+div#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+div#top{
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    color: rgb(241, 241, 241);
+}
+div#pic{
+    background-color: black;
+    flex: 20%;
+}
+div#name{
+    background-color: rgb(15, 48, 15);   
+    flex: 40%;   
+    padding: 2em; 
+    /* background:linear-gradient(to right,rgb(0, 0, 0),rgb(18, 82, 18)); */
+    background:linear-gradient(to right,rgb(0, 0, 0),rgb(53, 48, 35));
+}
+div#contact{
+    flex: 40%;
+    text-align: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em 3em 0px 0px; 
+    background:linear-gradient(to left,rgb(0, 0, 0),rgb(53, 48, 35));
+    
+}
+span#contacthead{
+    text-align: left;
+    font-size: large;
+    border-bottom: 0.1em solid;
+}
+div#bottom{
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+}
+
+
+div#right{
+    display: flex;
+    flex-direction: column;
+    flex: 80%;
+}
+div#rightup{
+    flex: 30%;
+    padding: 2em;
+    background:linear-gradient(to top,bisque,rgb(236, 214, 185));
+}
+div#rightdown{
+    flex: 30%;
+    padding: 2em;
+    background:linear-gradient(to top,bisque,rgb(238, 214, 185));
+    
+}
+div#left{
+    flex: 20%;
+    padding: 2rem;
+    background:linear-gradient(to left,rgb(226, 193, 155),rgb(238, 214, 185));
+} 
+div#bottom div#left h2{
+    border-bottom: 0.1em solid;
+}
+div#bottom div#left ul li{
+    padding: 0.1em;
+    text-align: justify;
+    text-decoration: none;
+    list-style: none;
+}
+h2.underline{
+    border-bottom-style: solid;
+}
+div#duration{
+    text-align: right;
+}
